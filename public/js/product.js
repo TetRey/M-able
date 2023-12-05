@@ -26,3 +26,7 @@ function toggleHeartIcon() {
     heartIcon.style.color = '#6c4933'; // Change color back to the original color for regular heart
   }
 }
+function changeImage(newSrc) {
+  var productImage = document.getElementById('product-image');
+  productImage.src = newSrc;
+}
